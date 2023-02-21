@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/myapp3" mode="merge"/>
+    <filter root="/content/myapp3" mode="merge"/>
+    <filter root="/content/dam/myapp3" mode="merge">
+        <exclude pattern="/content/dam/myapp3(/.*)?"/>
+        <include pattern="/content/dam/myapp3/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/myapp3/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/myapp3" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-themes/myapp3" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-fdm/myapp3" mode="merge"/>
+    <filter root="/content/dam/myapp3/sample_logo.png" mode="merge"/>
+    <filter root="/content/dam/myapp3/sample_terms.png" mode="merge"/>
+</workspaceFilter>
