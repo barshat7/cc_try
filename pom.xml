@@ -55,7 +55,7 @@
       
   <properties>
             
-    <aem.host>no1010042037043.corp.adobe.com/</aem.host>
+    <aem.host>localhost</aem.host>
             
     <aem.port>4502</aem.port>
             
